@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partner App Renewal Alerts</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Partner App: Renewal Alerts</h1>
+    <p class="subtitle">Alerts are triggered when renewals are within 30, 60, or 90 days.</p>
+
+    <section class="panel">
+      <h2>Renewal Alerts</h2>
+      <ul id="alert-list" class="alert-list"></ul>
+    </section>
+
+    <section class="panel">
+      <h2>Customer Renewals</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Customer</th>
+            <th>SKU</th>
+            <th>Renewal Date</th>
+            <th>Days Remaining</th>
+          </tr>
+        </thead>
+        <tbody id="customer-table-body"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
