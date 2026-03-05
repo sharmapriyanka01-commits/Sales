@@ -18,3 +18,13 @@ These as-of dates will trigger sample alerts with the seeded data:
 - `2026-03-05` (30 days until Acme Manufacturing)
 - `2026-02-03` (60 days until Acme Manufacturing)
 - `2026-01-04` (90 days until Acme Manufacturing)
+
+## Automated tests
+
+Run:
+
+```bash
+node --test 'partner/Renewal alert/tests/renewalLogic.test.mjs'
+```
+
+This validates customer seed count and threshold/date calculations.
